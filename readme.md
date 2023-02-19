@@ -21,7 +21,7 @@ Assign the data curator permission in Purview to the service principal. The data
 
 ![Purview-data-curator](Images/Purview-data-curators.png)
 
-### 2. Connect to Purvew
+### 2. Connect to Purview
 ```def connect_to_purview(keyVaultName, purviewName):```<br>
 This function connects to Purview and is required for creating entity types. It uses the service principal credentials from the key vault with OAuth.
 
